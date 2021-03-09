@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="5fc9246a-6faa-4194-9987-7a5bf28557fc" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Add Secondry User" searchProperties="true" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="5fc9246a-6faa-4194-9987-7a5bf28557fcfileName">Add-Secondry-User</con:setting></con:settings><con:testStep type="restrequest" name="REST Request" id="378e783e-6114-4ace-a876-2da43a8c31ff"><con:settings/><con:config service="https://www.test-insurance.com" methodName="SecondaryUser Request" resourcePath="/api/v1/secondary-user" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="REST Request" id="25ff0161-a93c-470e-b7bc-c4e6cf9da19d" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://www.test-insurance.com</con:endpoint><con:request>{
+  "primaryPersonId": "130",
+  "secondaryPerson": {
+    "username": "Zohal",
+    "email": "amini.zohal12@gmail.com",
+    "title": "Ms",
+    "firstName": "Zohal",
+    "lastName": "Amini",
+    "gender": "Female",
+    "maritalStatus": "Single",
+    "employmentStatus": "employed",
+    "dateOfBirth": "200-01-02",
+    "languagePref": "en",
+    "password": "125"
+  },
+  "secondaryPersonMailingAddress": {
+    "addressType": "USA",
+    "addressLine1": "2604 falls church",
+    "city": "Falls Church",
+    "state": "VA",
+    "postalCode": "22041",
+    "countryCode": "+1"
+  }
+}</con:request><con:originalUri>https://www.test-insurance.com/api/v1/secondary-user</con:originalUri><con:credentials><con:selectedAuthProfile>Berear</con:selectedAuthProfile><con:authType>OAuth 2.0</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase>

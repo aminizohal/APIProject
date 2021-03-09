@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="fd87d3c3-ef69-4fe7-8144-2708e4631df7" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="CreateUser Test case" searchProperties="true" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="fd87d3c3-ef69-4fe7-8144-2708e4631df7fileName">CreateUser-Test-case</con:setting></con:settings><con:properties/><con:reportParameters/></con:testCase>
